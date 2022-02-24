@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full;
+}
+
+#app {
+  @apply flex flex-col items-center h-full;
+}
+
+main {
+  @apply max-w-screen-sm w-full h-full border-x-2;
+}
