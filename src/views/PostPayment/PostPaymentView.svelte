@@ -2,6 +2,7 @@
   import { HomeViewPath } from "../../router";
 
   import { push } from "svelte-spa-router";
+  import storeIcon from "/src/assets/shop-icon.svg";
 </script>
 
 <div class="h-full px-3">
@@ -22,7 +23,7 @@
     <div class="text-sm">Rincian</div>
     <div class="pb-6">
       <div class="flex items-center space-x-2 pb-2">
-        <img class="h-4 w-4" src="/src/assets/shop-icon.svg" alt="" />
+        <img class="h-4 w-4" src={storeIcon} alt="" />
         <div class="text-md font-bold flex-grow">Toko Pak Slamet</div>
         <div class="">
           <div class="text-sm font-semibold">Kirim langsung</div>

@@ -4,8 +4,8 @@
   import { push } from "svelte-spa-router";
 
   import CartItemEntry from "/src/components/CartItemEntry.svelte";
-  import ItemEntry from "/src/components/ItemEntry.svelte";
   import NavbarWithBack from "/src/components/NavbarWithBack.svelte";
+  import storeIcon from "/src/assets/shop-icon.svg";
 </script>
 
 <div class="bg-slate-100 h-full">
@@ -14,7 +14,7 @@
     <div class="text-lg font-bold pb-4">Barang yang dibeli</div>
     <div class="pb-6">
       <div class="flex items-center space-x-2 pb-2">
-        <img class="h-4 w-4" src="/src/assets/shop-icon.svg" alt="" />
+        <img class="h-4 w-4" src={storeIcon} alt="" />
         <div class="text-md font-bold flex-grow">Toko Pak Slamet</div>
         <div class="">
           <div class="flex items-center space-x-1">
@@ -45,7 +45,7 @@
     </div>
     <div class="pb-6">
       <div class="flex items-center space-x-2 pb-2">
-        <img class="h-4 w-4" src="/src/assets/shop-icon.svg" alt="" />
+        <img class="h-4 w-4" src={storeIcon} alt="" />
         <div class="text-md font-bold flex-grow">Toko Pak Slamet</div>
         <div class="">
           <div class="flex items-center space-x-1">

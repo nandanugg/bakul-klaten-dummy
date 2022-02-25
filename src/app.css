@@ -12,5 +12,5 @@ body {
 }
 
 main {
-  @apply max-w-screen-sm w-full h-full border-x-2;
+  @apply max-w-screen-sm w-full h-full;
 }
